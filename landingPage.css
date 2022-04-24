@@ -1,0 +1,235 @@
+Body {
+  margin: 0;
+  padding: 0;
+  font-family: "Fraunces", serif;
+  overflow: visible;
+  width: 100%;
+}
+
+/* Header */
+header {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5vh;
+  width: 80%;
+  min-width: 250px;
+  max-width: 400px;
+}
+
+#welcomeMessage {
+  width: 80%;
+}
+
+#customerIcon {
+  text-align: right;
+  width: 20%;
+}
+
+#customerIcon > img {
+  margin-top: -10%;
+}
+
+/* Main */
+main {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5vh;
+  width: 80%;
+  min-width: 280px;
+  max-width: 380px;
+}
+
+/* Balance Card */
+#balanceCard {
+  background-color: blue;
+  border-radius: 12px;
+  color: white;
+  display: flex;
+  height: 10em;
+}
+
+#balanceDetails {
+  padding-left: 10%;
+  padding-top: 5%;
+  width: 50%;
+}
+
+#balance {
+  font-size: 1.5em;
+  margin-top: 10%;
+}
+
+#accountInfo {
+  margin-top: 10%;
+}
+
+#balanceImages {
+  text-align: right;
+  margin-top: 5%;
+  padding-right: 5%;
+  width: 50%;
+}
+
+#queen {
+  border-radius: 10px;
+  padding-top: 4px;
+}
+
+/* Icons */
+#iconList {
+  display: flex;
+  margin-top: 5vh;
+  width: 100%;
+}
+
+.icon {
+  height: 4em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 25%;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+.icon > img {
+  width: 2em;
+}
+
+#iconText {
+  font-size: 0.8em;
+}
+
+/* Transaction History */
+#transactionHistory {
+  margin-top: 5vh;
+  width: 100%;
+}
+
+#historyHeading {
+  display: flex;
+}
+
+#historyTitle {
+  width: 80%;
+}
+
+#filter {
+  text-align: right;
+  width: 20%;
+}
+
+#filter:hover {
+  cursor: pointer;
+}
+
+#filter > img {
+  width: 2em;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0 15px;
+  margin-top: 2vh;
+  width: 100%;
+}
+
+tr {
+  height: 3em;
+}
+
+td {
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+
+.brandLogo {
+  width: 20%;
+}
+
+.brandLogo1 {
+  background-color: rgba(128, 128, 128, 0.433);
+  border-radius: 5px;
+}
+
+.price {
+  font-size: small;
+  width: 20%;
+}
+
+.price1 {
+  color: rgba(128, 128, 128, 0.433);
+  font-size: small;
+}
+
+.companyName {
+  color: rgba(128, 128, 128, 0.433);
+}
+
+.date {
+  color: rgba(128, 128, 128, 0.433);
+}
+/* Footer */
+
+footer {
+  background-color: white;
+  border-radius: 50px 50px 0 0;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.196);
+  bottom: 0;
+  left: 0;
+  height: 5rem;
+  position: fixed;
+  width: 100%;
+  min-width: 320px;
+  z-index: 2;
+}
+
+.footerIcon > img {
+  width: 2em;
+}
+
+.footerIcon1 > img {
+  width: 2em;
+}
+
+.footerIcon:hover {
+  cursor: pointer;
+}
+
+.footerIcon1:hover {
+  cursor: pointer;
+}
+
+#footerList {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  width: 80%;
+}
+
+.footerSection {
+  text-align: center;
+  width: 20%;
+}
+
+.footerSection1 {
+  padding-left: 5%;
+  width: 40%;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 350px) {
+  .price {
+    font-size: smaller;
+  }
+
+  .price1 {
+    font-size: smaller;
+  }
+}
